@@ -21,7 +21,7 @@ if length%2 != 0:
     print(numbers[index-1])
     #it is median-1 because list index starts at 0
 else:
-    half = length /2
+    half = math.ceil(length /2)
     median = (numbers[half-1]+numbers[half])/2
     print (median)
     
