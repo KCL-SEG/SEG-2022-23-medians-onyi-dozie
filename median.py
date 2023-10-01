@@ -15,9 +15,7 @@ while True:
 numbers.sort()
 length = len(numbers)
 
-if length == 1:
-    print (numbers[0])
-elif length%2 != 0:
+if length%2 != 0:
     half = length / 2
     index = math.ceil(half)
     print(numbers[index-1])
