@@ -12,6 +12,7 @@ while True:
     else:
         break
 
+numbers.sort()
 length = len(numbers)
 
 if length == 1:
